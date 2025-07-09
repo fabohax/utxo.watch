@@ -253,7 +253,9 @@ export default function BitcoinExplorer() {
             </div>
           </TabsContent>
         </Tabs>
-        <MempoolStats mempoolSize={mempoolSize} avgFee={avgFee} transactions={transactions} />
+        <div className="my-4">
+        <MempoolStats mempoolSize={mempoolSize} avgFee={avgFee} transactions={transactions}/>
+        </div>
       </div>
     </div>
   )
